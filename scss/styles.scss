@@ -125,10 +125,8 @@
 		@extend .media-body, .text-left, .pr-md-3, .align-middle;
 	}
 	&_text{
-		@extend .px-md-2, .p-0,;
-		font-weight: 600;
+		@extend .px-md-2, .p-0;
 		color:  $theme-text-color-primary;
-		//	margin-bottom: 0.5rem;
 		&:last-child{
 			@extend .mb-0;
 		}
@@ -186,7 +184,13 @@
         list-style-type: none;
         @extend .list-unstyled;
         
-    }
+	}
+	
+	&--skills{
+		.cv-list_item{
+         
+        }
+	}
     
     &--education{
         @extend .cv-list--unstyled;
@@ -230,6 +234,28 @@
     }
 }
 
+.power-level{
+	@extend .d-inline-block;
+	font-size:0;
+	
+	&_shape{
+		@extend .d-inline-block;
+		width: 6px;
+		height: 1rem;
+		margin-right: 3px;	
+		background: lighten($theme-color-primary, 33%);;
+		&--filled{
+			@extend .d-inline-block;
+			background: $theme-color-primary;
+			
+		}
+	}
+
+	
+
+}
+
+
 
 
 .cv-language {
@@ -240,7 +266,9 @@
 	font-size: 0.75rem;
 }
 
-
+[data-toggle]{
+	text-decoration: dotted;
+}
 
 
 //** line clamp and expandable containers

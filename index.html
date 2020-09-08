@@ -3,8 +3,7 @@
 
 <head>
 	<title>Branzei Radu-Mihai | CV</title>
-
-
+	<meta name='robots' content='noindex,nofollow,none' />
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -112,20 +111,25 @@
 								With an eye for good visual design, I am keen on building digital experiences in
 								an iterative design manner.
 								<!-- I --> Always felt confortable with a debugger and
-								<!--  I am --> not afraid to refactor code.
+								<!--  I am --> not afraid to refactor code when in a painful need.
 							
-							</p>
+							<!-- 
+
+								</p>
 							<p class="cv-about-me_text">
+
+							-->
 
 							 One of my core beliefs is that nothing is rocket science,
 								except rocket science itself, and given enough time and documentation you can build
 								anything.
 								<!--  Looking to upgrade my abilities by solving real-world problems using latest technologies and trends. -->
-								</p>
+								
+									</p>
 
 							<p class="cv-about-me_text">  
-								Anything sci-fi & fantasy related, are things I also enjoy. 
-								Also, handy
+								
+								Things I also enjoy: anything sci-fi & fantasy related, running and hiking. Also, handy
 								with a screwdriver.
 							</p>
 
@@ -145,63 +149,76 @@
 								<h3 class="theme-h cv-section-heading">Work Experience</h3>
 
 
-								<!--//item-->
+								<div class="cv-item">
+									<div class="cv-item_heading cv-item_heading--main">
+										<h4 class="theme-h cv-item_title">Full-Stack Developer</h4>
+										<div class="cv-item_meta">
+											Inkonova AE, Stockholm <span class="cv-org"></span> 12 April 2020 - 30 May 2020</div>
+
+									</div>
+
+
+									<div class="cv-item_content">
+										
+											Create an POC web app where a user could upload files and download post proccesed results. 
+											User was notified by an email using SendGrid API and all files are stored inside a Google Bucket.
+											Web App was created using HTML, CSS, JavaScript on the front-end, and for back-end I used Node.js paired with Express.js, Passport.js.
+											App is hosted on Google Cloud Platform using a Google App Engine instance.
+									</div>
+								</div>
+
+
+
+
+								
 								<div class="cv-item">
 									<div class="cv-item_heading cv-item_heading--main">
 										<h4 class="theme-h cv-item_title">
 											Full-Stack Java Developer</h4>
 										<div class="cv-item_meta">
-											Nexource <span class="cv-org"></span> 8 August 2015 - 3 March 2020</div>
+											Nexource <span class="cv-org"></span> 8 August 2015 - 1 April 2020</div>
 
 									</div>
 									<div class="cv-item_content">
 
-										<p>During my time at Nexource, I have done the following: </p>
+										During my time at Nexource, I've done the following:
 										<ul class="cv-list">
 											<li class="cv-list_item">independently troubleshooted issues, added
 												improvements, developed new
 												features for two Java web apps: HSIM & UAD (see Projects
-												section)</li>
-
-											<li class="cv-list_item">provided clear and concise documentations, for old
-												and new features.</li>
+												section)
+											</li>
+											<li class="cv-list_item">provided clear and concise documentations.</li>
 											<li class="cv-list_item"> teamed up with developers, testers and editors in
-												order to replicate,
-												provide fixes and integrate new product changes.</li>
-											<li class="cv-list_item"> dived into new technologies in order to provide
-												prototypes and solutions, like Docker</li>
+												order fix issues and integrate new product changes.</li>
 											<li class="cv-list_item"> designed, wrote and remediate SQL statements.</li>
-											<li class="cv-list_item"> implemented QA automation using Apache Selenium
-												and Ranorex.</li>
+											<li class="cv-list_item"> created testing methods and routines to ensure quality of delivery</li>
+											<li class="cv-list_item">
+												implemented QA automation using Apache Selenium
+												and Ranorex.
+											</li>
 											<li class="cv-list_item"> done manual testing and monitored automatic ones
-												for which I provided a result document
-												of all clients, products and features tested.</li>
-
+												for which I provided a result document of all clients, products and features tested.</li>
 											<li class="cv-list_item"> transformed client requests in application
-												requirements, Jira tickets and wireframes; one of which was their
-												website.</li>
+												requirements, Jira tickets and wireframes</li>
+
 											<li class="cv-list_item"> translated wireframes and .PSD/.PNG designs into
 												web pages and functional designs</li>
-											<li class="cv-list_item"> created testing methods and routines to ensure
-												high-quality delivery.
-											</li>
-
 											<li class="cv-list_item"> implemented client branding guides.</li>
 											<li class="cv-list_item"> fix releases which failed to be delivered, due to
 												internal issues
 												manifested by an in-house developed deployment engine, by doing
 												workarounds. </li>
 											<li class="cv-list_item"> collaborated with Content Teams for their
-												scheduled weekly content
-												releases.</li>
+												scheduled weekly content releases.</li>
 											<li class="cv-list_item"> harvest data and integrate it in a relational
 												database </li>
-
+											<li class="cv-list_item"> learn new technologies in order to provide
+													prototypes and other solutions, like Docker</li>
 											<li class="cv-list_item">
 												<div class="line-clamp" id="instance_setup">
-													<span>set up new UAD SaaS instances with AWS EC2 Cloud Platform
-														(EC2, LB,RDS, DNS). Later, I did an automation for this
-														process.</span>
+													<span>set up new UAD SaaS instances with AWS EC2 Cloud Platform.
+														Later, I did an automation for this process.</span>
 													
 													It consisted of:
 													<ul class="cv-list">
@@ -432,6 +449,7 @@
 												<li class="cv-list_item">Javascript/JQuery</li>
 												<li class="cv-list_item">Bootstrap</li>
 												<li class="cv-list_item">Java SE & EE</li>
+												<li class="cv-list_item">Node.js</li>
 												<li class="cv-list_item">
 													<span data-toggle="tooltip" data-placement="top"
 														title="Framework for developing single page web applications using Java.">
@@ -488,7 +506,7 @@
 											</div>
 											<ul class="cv-list cv-list--unstyled">
 												<li class="cv-list_item">Amazon Web Services (EC2)</li>
-												<li class="cv-list_item">Google Cloud Platform</li>
+												<li class="cv-list_item">Google Cloud Platform (GAE)</li>
 											</ul>
 										</div>
 
