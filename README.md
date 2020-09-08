@@ -5,5 +5,5 @@
 - Tested on all modern browsers
 - Responsive Layout
 - To compile stylesheet use command:  sass ./scss/cv.scss:./css/cv.css --watch
-- SVG Icons extracted from[FontAwesome](http://fortawesome.github.io/Font-Awesome/)
+- SVG Icons extracted from [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 
